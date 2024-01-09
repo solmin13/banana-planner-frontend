@@ -1,0 +1,15 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .day-block.empty {
+    background-color: #f0f0f0;
+  }
+  
