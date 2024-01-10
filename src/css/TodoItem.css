@@ -1,0 +1,34 @@
+/* #itemChangeBtn{
+background: #ACE292;
+border-radius: 10px 10px 0px 0px;
+border: none;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 97.02%;
+text-align: center;
+letter-spacing: 0.1em;
+color: #3E6B28;
+
+}
+
+#itemBox{
+    width: 20px;
+    height: 20px;
+    background: #FEF38D;
+    border: 2px solid #422E17;
+    border-radius: 8px;
+}
+
+#addTodoBtn{
+    width: 20px;
+    height: 20px;
+    left: 1450px;
+    top: 563px;
+
+    background: #422E17;
+    border: 2px solid #422E17;
+    border-radius: 8px;
+} */
