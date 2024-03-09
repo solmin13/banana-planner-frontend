@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import DayBlock from '../components/DayBlock';
+import TodoItem from '../components/TodoItem';
 
 const Calendar = () => {
     const currentDate = new Date();
@@ -42,6 +43,7 @@ const Calendar = () => {
                 ))}
             </div>
             {selectedDate && <div className="selected-date">선택된 날짜: {selectedDate}</div>}
+            <TodoItem selectedDate={selectedDate}></TodoItem>
         </div>
     )
 }
